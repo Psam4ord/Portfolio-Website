@@ -4,8 +4,8 @@ import Footer from "./Components/Layout/footer";
 function App() {
   return (
     <div >
+      <Footer />
 
-   <Footer />
     </div>
   );
 }
