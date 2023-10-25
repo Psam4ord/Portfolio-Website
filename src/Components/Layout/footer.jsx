@@ -7,7 +7,7 @@ import { FaXTwitter, FaInstagram } from 'react-icons/fa6'
 const Footer = () => {
 
     return (
-        <div>
+        <div className=" flex">
 
             <h1 class = " text-red-500"> SAMMORDUAH HAYFORD</h1>
             <ul class = " list-none">
@@ -16,11 +16,11 @@ const Footer = () => {
                 <li><FaXTwitter />Twitter  </li>
                 <li> <FaInstagram />Instagram </li>
             </ul>
-            <span>
+            <div>
                 <p>KerryInc &reg;</p>
                 <p translate="no"> &copy;2023</p>
                 <p>All Rights Reserved</p>
-            </span>
+            </div>
         </div>
     )
 
