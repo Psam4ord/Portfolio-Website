@@ -39,30 +39,33 @@ const Footer = () => {
                 </div>
 
                 {/* Further information */}
-                <hr className=" xsm:flex  h-2 text-[#2f335e] mt-4"/>
+                <hr className=" xsm:flex  h-2 text-[#2f335e] mt-4" />
                 <div className="flex text-[#a4aaaa] text-lg">
                     <span className="p-2">
                         <h3 className="text-2xl">Futher Info</h3>
-                        <ul>Home</ul>
-                        <ul>About</ul>
-                        <ul>Resume</ul>
-                        <ul>Services</ul>
-                        <ul>Contact</ul>
+                        <ul>
+                            <li> <a href="/"> </a>Home</li>
+                            <li> <a href="/about"> </a>About</li>
+                            <li> <a href="#"> </a>Resume</li>
+                            <li> <a href="#"> </a>Services</li>
+                            <li> <a href="#"> </a>Contact</li>
+                        </ul>
+
                     </span>
                 </div>
 
 
                 {/* Social handles */}
-                <hr className=" h-2 text-[#2f335e]"/>
+                <hr className=" h-2 text-[#2f335e]" />
                 <div className="xsm:flex-col flex space-x-1 items-center">
                     <ul class=" flex space-x-4  list-none text-[#aaa4a4] p-2 mb-4">
-                        <li> <FaLinkedinIn /> </li>
-                        <li><FaXTwitter />  </li>
-                        <li> <FaInstagram /></li>
-                        <li> <FaWhatsapp /> </li>
+                        <li><a href="#"><FaLinkedinIn /></a>  </li>
+                        <li> <a href="#"><FaXTwitter />  </a> </li>
+                        <li> <a href="#"><FaInstagram /> </a></li>
+                        <li><a href="#"><FaWhatsapp /> </a>  </li>
                     </ul>
                     <span className="flex flex-row mb-4 ">
-                        <input className="rounded-l-lg" type="email" placeholder=" Email" />
+                        <input className=" bg-[#ccc] text-[#fff] rounded-l-lg" type="email" placeholder=" Email" />
                         <button className="xsm:bg-btnPrimary hover:bg-btnHover 
                     hover:text-[#080808] text-[#fffefe] p-1 rounded-r-lg">Send Email</button>
                     </span>
