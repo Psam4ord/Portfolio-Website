@@ -1,12 +1,18 @@
-import React from "react";
+import React from "react"
+import NavBar from "../Components/Layout/navBar";
+import Footer from "../Components/Layout/footer";
+import Content from "../Components/Layout/content";
 
-const Homepage = ()=> {
+const Homepage = () => {
 
-return(
-<div>
- <h1 > Homepage </h1>
- </div>
-  )  
+  return (
+    <div>
+      <NavBar />
+      <Content />
+      <Footer />
+
+    </div>
+  )
 }
 
 

@@ -1,12 +1,12 @@
-import Footer from "./Components/Layout/footer";
-import NavBar from "./Components/Layout/navBar";
+import React from "react";
+import Homepage from "./pages/homePage";
+import CardDesign from "./Components/card";
 
 function App() {
   return (
     <div >
-    <NavBar />
-      {/* <Footer /> */}
-
+      
+   < Homepage /> 
     </div>
   );
 }
