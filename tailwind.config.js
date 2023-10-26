@@ -9,6 +9,7 @@ module.exports = {
       'bgPrimary':"#F0F0F0",
       'btnPrimary':'#1da1f2',
       'btnHover': '#89CFF3 ',
+      'cardColor': '#F8F6F4'
     },
     screens: {
       'xsm': '320px',
