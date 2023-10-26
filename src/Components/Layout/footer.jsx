@@ -14,20 +14,18 @@ const Footer = () => {
     return (
         <div class=" relative mt-10">
 
-            <div class="xsm:w-full flex flex-wrap h-3/4 bg-[#0f172a] text-white pt-4">
+            <div class="xsm:w-full xsm:flex-col flex flex-wrap h-3/4 bg-[#0f172a] text-white pt-4">
 
+                {/* Address information */}
                 <div className="flex text-[#aaa4a4] text-lg">
                     <span className=" p-2">
                         <h3 className="text-2xl">Contact Address</h3>
                         <ul>
-
+                            <li className="flex items-center space-x-2 ">
+                                <h3>Location details & icon here</h3>
+                            </li>
 
                             <li className="flex items-center space-x-2 ">
-                                <li className="flex items-center space-x-2 ">
-
-                                    <h3>Location icon here</h3>
-                                </li>
-
                                 <AiOutlinePhone />
                                 < Phone />
                             </li>
@@ -40,6 +38,8 @@ const Footer = () => {
                     </span>
                 </div>
 
+                {/* Further information */}
+                <hr className=" xsm:flex  h-2 text-[#2f335e] mt-4"/>
                 <div className="flex text-[#a4aaaa] text-lg">
                     <span className="p-2">
                         <h3 className="text-2xl">Futher Info</h3>
@@ -50,15 +50,19 @@ const Footer = () => {
                         <ul>Contact</ul>
                     </span>
                 </div>
-                <div className=" flex flex-row space-x-1">
-                    <ul class=" flex space-x-2 list-none text-[#aaa4a4] p-2">
+
+
+                {/* Social handles */}
+                <hr className=" h-2 text-[#2f335e]"/>
+                <div className="xsm:flex-col flex space-x-1 items-center">
+                    <ul class=" flex space-x-4  list-none text-[#aaa4a4] p-2 mb-4">
                         <li> <FaLinkedinIn /> </li>
                         <li><FaXTwitter />  </li>
                         <li> <FaInstagram /></li>
                         <li> <FaWhatsapp /> </li>
                     </ul>
-                    <span className=" flex flex-row">
-                        <input className=" rounded-l-lg h-auto" type="email  " placeholder=" Email" />
+                    <span className="flex flex-row mb-4 ">
+                        <input className="rounded-l-lg" type="email" placeholder=" Email" />
                         <button className="xsm:bg-btnPrimary hover:bg-btnHover 
                     hover:text-[#080808] text-[#fffefe] p-1 rounded-r-lg">Send Email</button>
                     </span>
