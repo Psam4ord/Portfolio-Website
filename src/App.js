@@ -4,8 +4,8 @@ import NavBar from "./Components/Layout/navBar";
 function App() {
   return (
     <div >
-    
-      <Footer />
+    <NavBar />
+      {/* <Footer /> */}
 
     </div>
   );

@@ -7,6 +7,7 @@ module.exports = {
 
     colors : {
       'bgPrimary':"#F0F0F0",
+      'bgSecondary':"#0f172a",
       'btnPrimary':'#1da1f2',
       'btnHover': '#89CFF3 ',
       'cardColor': '#F8F6F4'
