@@ -9,7 +9,6 @@ module.exports = {
       'bgPrimary':"#F0F0F0",
       'btnPrimary':'#1da1f2',
       'btnHover': '#89CFF3 ',
-      'footer': '#354259',
     },
     screens: {
       'xsm': '320px',
