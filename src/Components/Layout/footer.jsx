@@ -1,20 +1,18 @@
 import React from "react";
 import Phone from "../contact/phone";
 import Email from "../contact/email";
-
+import { Link } from "react-router-dom";
 import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { FaXTwitter, FaInstagram } from 'react-icons/fa6';
 import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
 //import location icon
 
 
-
 const Footer = () => {
-
     return (
-        <div class=" relative mt-10">
+        <div className=" relative mt-10">
 
-            <div class="xsm:w-full xsm:flex-col flex flex-wrap h-3/4 bg-[#0f172a] text-white pt-4">
+            <div className="xsm:w-full xsm:flex-col flex flex-wrap h-3/4 bg-[#0f172a] text-white pt-4">
 
                 {/* Address information */}
                 <div className="flex text-[#aaa4a4] text-lg">
@@ -45,7 +43,7 @@ const Footer = () => {
                         <h3 className="text-2xl">Futher Info</h3>
                         <ul>
                             <li> <a href="/"> </a>Home</li>
-                            <li> <a href="/about"> </a>About</li>
+                            <li> <Link to='/about'>About </Link></li>
                             <li> <a href="#"> </a>Resume</li>
                             <li> <a href="#"> </a>Services</li>
                             <li> <a href="#"> </a>Contact</li>
@@ -58,7 +56,7 @@ const Footer = () => {
                 {/* Social handles */}
                 <hr className=" h-2 text-[#2f335e]" />
                 <div className="xsm:flex-col flex space-x-1 items-center">
-                    <ul class=" flex space-x-4  list-none text-[#aaa4a4] p-2 mb-4">
+                    <ul className=" flex space-x-4  list-none text-[#aaa4a4] p-2 mb-4">
                         <li><a href="#"><FaLinkedinIn /></a>  </li>
                         <li> <a href="#"><FaXTwitter />  </a> </li>
                         <li> <a href="#"><FaInstagram /> </a></li>
@@ -71,7 +69,7 @@ const Footer = () => {
                     </span>
                 </div>
 
-                <span class=" bg-[#0e0d0daf] flex flex-row w-full p-2 pb-4 text-[#aaa4a4] text-sm">
+                <span className=" bg-[#0e0d0daf] flex flex-row w-full p-2 pb-4 text-[#aaa4a4] text-sm">
                     <p className="flex flex-nowrap " translate="no">copyright &copy; 2023 | KerryInc&reg;</p>
                     <p className="flex flex-nowrap "> All Rights Reserved</p>
 

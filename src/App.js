@@ -1,12 +1,11 @@
 import React from "react";
-import AboutPage from "./pages/aboutPage";
+import { RouterProvider } from 'react-router-dom'
+import { AppRouter } from "./router";
 
 
 function App() {
   return (
-    <div > 
-   <AboutPage />
-    </div>
+      <RouterProvider router={AppRouter}/>
   );
 }
 

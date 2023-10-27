@@ -32,7 +32,7 @@ const AboutPage = () => {
       <div className=' flex justify-center'>
         <button className=' bg-btnPrimary hover:bg-btnHover hover:text-[#000000] text-[#fff]
          p-2 rounded m-2 font-mono '>
-          <a href='#'> </a>Download Resume</button>
+          <a href='#' download= " "> </a>Download Resume</button>
       </div>
       <Footer />
     </>
