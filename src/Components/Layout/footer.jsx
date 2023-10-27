@@ -18,7 +18,7 @@ const Footer = () => {
 
                 {/* Address information */}
                 <div className="flex text-[#aaa4a4] text-lg">
-                    <span className=" p-2">
+                    <span className=" p-2 pt-10">
                         <h3 className="text-2xl">Contact Address</h3>
                         <ul>
                             <li className="flex items-center space-x-2 ">

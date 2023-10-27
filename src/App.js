@@ -1,12 +1,11 @@
 import React from "react";
-import Homepage from "./pages/homePage";
-import CardDesign from "./Components/card";
+import AboutPage from "./pages/aboutPage";
+
 
 function App() {
   return (
-    <div >
-      
-   < Homepage /> 
+    <div > 
+   <AboutPage />
     </div>
   );
 }
