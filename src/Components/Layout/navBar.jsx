@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
-import { FaXTwitter, FaInstagram } from 'react-icons/fa6';
+import { FaXTwitter, FaInstagram, FaGithub } from 'react-icons/fa6';
 
 const NavBar = () => {
   return (
@@ -10,10 +10,17 @@ const NavBar = () => {
       h-1/4 bg-bgSecondary space-x-2 p-2 ">
         <span>
           <ul className='flex space-x-4'>
-            <li className='hover:text-[#fff]'><a href='www.linkedin.com/in/hayford-sammor-duah-7a8074186/'> <FaLinkedinIn /> </a> </li>
-            <li className='hover:text-[#fff]'><a href='https://twitter.com/Kerry17_'> <FaXTwitter /> </a> </li>
-            <li className='hover:text-[#fff]'><a href='https://wa.me/233547411756'> <FaWhatsapp /> </a> </li>
-            <li className='hover:text-[#fff]'><a href='#'> <FaInstagram /> </a> </li>
+            <li className='hover:text-[#fff]'><a href='www.linkedin.com/in/hayford-sammor-duah-7a8074186/'
+              target="_blank" rel="noreferrer"> <FaLinkedinIn /> </a> </li>
+               <li className=' hover:text-[#fff]'><a href="http://github.com/Psam4ord"
+                            target="_blank" rel="noreferrer"><FaGithub /></a>  </li>
+            <li className='hover:text-[#fff]'><a href='https://twitter.com/Kerry17_'
+              target="_blank" rel="noreferrer"> <FaXTwitter /> </a> </li>
+            <li className='hover:text-[#fff]'><a href='https://wa.me/233547411756'
+              target="_blank" rel="noreferrer"> <FaWhatsapp /> </a> </li>
+            <li className='hover:text-[#fff]'
+              target="_blank" rel="noreferrer"
+            ><a href='#'> <FaInstagram /> </a> </li>
           </ul>
         </span>
       </div>

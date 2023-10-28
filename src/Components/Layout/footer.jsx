@@ -2,8 +2,8 @@ import React from "react";
 import Phone from "../contact/phone";
 import Email from "../contact/email";
 import { Link } from "react-router-dom";
-import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
-import { FaXTwitter, FaInstagram } from 'react-icons/fa6';
+import { FaLinkedinIn, FaWhatsapp,  } from 'react-icons/fa';
+import { FaXTwitter, FaInstagram, FaGithub} from 'react-icons/fa6';
 import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
 //import location icon
 
@@ -56,10 +56,16 @@ const Footer = () => {
                 <hr className=" h-2 text-[#2f335e]" />
                 <div className="xsm:flex-col flex space-x-1 items-center">
                     <ul className=" flex space-x-4  list-none text-[#aaa4a4] p-2 mb-4">
-                        <li><a href="/www.linkedin.com/in/hayford-sammor-duah-7a8074186/"><FaLinkedinIn /></a>  </li>
-                        <li> <a href="https://twitter.com/Kerry17_"><FaXTwitter />  </a> </li>
-                        <li><a href="https://wa.me/233547411756"><FaWhatsapp /> </a>  </li>
-                        <li> <a href="#"><FaInstagram /> </a></li>
+                        <li  className=' hover:text-[#fff]'><a href="www.linkedin.com/in/hayford-sammor-duah-7a8074186"
+                            target="_blank" rel="noreferrer"><FaLinkedinIn /></a>  </li>
+                        <li  className=' hover:text-[#fff]' ><a href="http://github.com/Psam4ord"
+                            target="_blank" rel="noreferrer"><FaGithub /></a>  </li>
+                        <li  className=' hover:text-[#fff]'> <a href="https://twitter.com/Kerry17_"
+                            target="_blank" rel="noreferrer"><FaXTwitter />  </a> </li>
+                        <li  className=' hover:text-[#fff]'><a href="https://wa.me/233547411756"
+                            target="_blank" rel="noreferrer"><FaWhatsapp /> </a>  </li>
+                        <li  className=' hover:text-[#fff]'> <a href="#"
+                            target="_blank" rel="noreferrer"><FaInstagram /> </a></li>
                     </ul>
                     <span className="flex flex-row mb-4 ">
                         <input className=" bg-[#ccc] text-[#fff] rounded-l-lg" type="email" placeholder=" Email" />
