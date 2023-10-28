@@ -42,11 +42,10 @@ const Footer = () => {
                     <span className="p-2">
                         <h3 className="text-2xl">Futher Info</h3>
                         <ul>
-                            <li> <a href="/"> </a>Home</li>
-                            <li> <Link to='/about'>About </Link></li>
-                            <li> <a href="#"> </a>Resume</li>
-                            <li> <a href="#"> </a>Services</li>
-                            <li> <a href="#"> </a>Contact</li>
+                            <li className='hover:text-[#ccc]'> <Link to='/'>Home </Link></li>
+                            <li className='hover:text-[#ccc]'> <Link to='/about'>About </Link></li>
+                            <li className='hover:text-[#ccc]'> <Link to='/service'>Service </Link></li>
+                            <li className='hover:text-[#ccc]'> <Link to='/contact'>Contact </Link></li>
                         </ul>
 
                     </span>

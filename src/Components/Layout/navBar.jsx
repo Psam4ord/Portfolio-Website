@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { FaXTwitter, FaInstagram } from 'react-icons/fa6';
 
@@ -20,11 +21,10 @@ const NavBar = () => {
       <div className='xsm:h-12  flex  justify-center w-full mt-4
         bg-[#fff] font-medium font-sans  shadow-sm'>
         <ul className='flex xsm:space-x-2 '>
-          <li className='hover:text-[#ccc]'> <a href='#'> Home</a></li>
-          <li className='hover:text-[#ccc]'> <a href='#'> About</a></li>
-          <li className='hover:text-[#ccc]'> <a href='#'> Resume</a></li>
-          <li className='hover:text-[#ccc]'> <a href='#'> Services</a></li>
-          <li className='hover:text-[#ccc]'> <a href='#'> Contact</a></li>
+          <li className='hover:text-[#ccc]'> <Link to='/'>Home </Link></li>
+          <li className='hover:text-[#ccc]'> <Link to='/about'>About </Link></li>
+          <li className='hover:text-[#ccc]'> <Link to='/service'>Service </Link></li>
+          <li className='hover:text-[#ccc]'> <Link to='/contact'>Contact </Link></li>
         </ul>
       </div>
 

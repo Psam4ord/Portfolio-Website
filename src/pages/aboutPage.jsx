@@ -8,7 +8,8 @@ const AboutPage = () => {
     <>
       <NavBar />
       <div className='bg-bgPrimary rounded-md p-2 m-2 '>
-        <h1 className='uppercase text-center p-1 font-semibold hover:text-[#ccc]'> About</h1>
+        <h1 className='uppercase text-center p-1 font-semibold 
+        '> About</h1>
 
         <p> I am a Software developer with the passion
           of developing efficient, performance base and complex Web applications.
