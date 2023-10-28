@@ -10,7 +10,7 @@ const NavBar = () => {
       h-1/4 bg-bgSecondary space-x-2 p-2 ">
         <span>
           <ul className='flex space-x-4'>
-            <li className='hover:text-[#fff]'><a href='www.linkedin.com/in/hayford-sammor-duah-7a8074186/'
+            <li className='hover:text-[#fff]'><a href='http://www.linkedin.com/in/hayford-sammor-duah-7a8074186'
               target="_blank" rel="noreferrer"> <FaLinkedinIn /> </a> </li>
                <li className=' hover:text-[#fff]'><a href="http://github.com/Psam4ord"
                             target="_blank" rel="noreferrer"><FaGithub /></a>  </li>
