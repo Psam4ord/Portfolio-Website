@@ -56,10 +56,10 @@ const Footer = () => {
                 <hr className=" h-2 text-[#2f335e]" />
                 <div className="xsm:flex-col flex space-x-1 items-center">
                     <ul className=" flex space-x-4  list-none text-[#aaa4a4] p-2 mb-4">
-                        <li><a href="#"><FaLinkedinIn /></a>  </li>
-                        <li> <a href="#"><FaXTwitter />  </a> </li>
+                        <li><a href="/www.linkedin.com/in/hayford-sammor-duah-7a8074186/"><FaLinkedinIn /></a>  </li>
+                        <li> <a href="https://twitter.com/Kerry17_"><FaXTwitter />  </a> </li>
+                        <li><a href="https://wa.me/233547411756"><FaWhatsapp /> </a>  </li>
                         <li> <a href="#"><FaInstagram /> </a></li>
-                        <li><a href="#"><FaWhatsapp /> </a>  </li>
                     </ul>
                     <span className="flex flex-row mb-4 ">
                         <input className=" bg-[#ccc] text-[#fff] rounded-l-lg" type="email" placeholder=" Email" />

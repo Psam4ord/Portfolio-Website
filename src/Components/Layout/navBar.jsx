@@ -10,10 +10,10 @@ const NavBar = () => {
       h-1/4 bg-bgSecondary space-x-2 p-2 ">
         <span>
           <ul className='flex space-x-4'>
-            <li className='hover:text-[#fff]'><a href='#'> <FaLinkedinIn /> </a> </li>
-            <li className='hover:text-[#fff]'><a href='#'> <FaXTwitter /> </a> </li>
+            <li className='hover:text-[#fff]'><a href='www.linkedin.com/in/hayford-sammor-duah-7a8074186/'> <FaLinkedinIn /> </a> </li>
+            <li className='hover:text-[#fff]'><a href='https://twitter.com/Kerry17_'> <FaXTwitter /> </a> </li>
+            <li className='hover:text-[#fff]'><a href='https://wa.me/233547411756'> <FaWhatsapp /> </a> </li>
             <li className='hover:text-[#fff]'><a href='#'> <FaInstagram /> </a> </li>
-            <li className='hover:text-[#fff]'><a href='#'> <FaWhatsapp /> </a> </li>
           </ul>
         </span>
       </div>
