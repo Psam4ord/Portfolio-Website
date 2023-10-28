@@ -10,7 +10,7 @@ import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
 
 const Footer = () => {
     return (
-        <div className=" relative mt-10">
+        <div className="w-full mt-10 bottom-0 ">
 
             <div className="xsm:w-full xsm:flex-col flex flex-wrap h-3/4 bg-[#0f172a] text-white pt-4">
 
@@ -68,11 +68,9 @@ const Footer = () => {
                     </span>
                 </div>
 
-                <span className=" bg-[#0e0d0daf] flex flex-row w-full p-2 pb-4 text-[#aaa4a4] text-sm">
+                <span className=" xsm:justify-center bg-[#0e0d0daf] flex flex-row w-full p-2 pb-4 text-[#aaa4a4] text-sm">
                     <p className="flex flex-nowrap " translate="no">copyright &copy; 2023 | KerryInc&reg;</p>
                     <p className="flex flex-nowrap "> All Rights Reserved</p>
-
-
                 </span>
             </div>
 

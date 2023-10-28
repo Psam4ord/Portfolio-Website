@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <>
       <NavBar />
-      <div className='bg-bgPrimary rounded-md p-2 m-2 '>
+      <div className='bg-bgPrimary rounded-md p-2 m-2 xsm:mt-24'>
         <h1 className='uppercase text-center p-1 font-semibold 
         '> About</h1>
 

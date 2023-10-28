@@ -5,7 +5,7 @@ import { FaXTwitter, FaInstagram } from 'react-icons/fa6';
 
 const NavBar = () => {
   return (
-    <>
+    <div className=' fixed top-0 z-40 w-full'>
       <div className=" flex justify-end text-[#ccc] w-full 
       h-1/4 bg-bgSecondary space-x-2 p-2 ">
         <span>
@@ -18,7 +18,7 @@ const NavBar = () => {
         </span>
       </div>
 
-      <div className='xsm:h-12  flex  justify-center w-full mt-4
+      <div className='xsm:h-12  flex  justify-center w-full p-2
         bg-[#fff] font-medium font-sans  shadow-sm'>
         <ul className='flex xsm:space-x-2 '>
           <li className='hover:text-[#ccc]'> <Link to='/'>Home </Link></li>
@@ -28,7 +28,7 @@ const NavBar = () => {
         </ul>
       </div>
 
-    </>
+    </div>
   )
 }
 
