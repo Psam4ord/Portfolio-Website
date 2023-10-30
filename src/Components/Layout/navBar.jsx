@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
-import { FaXTwitter, FaInstagram, FaGithub, FaRegLightbulb } from 'react-icons/fa6';
+import { FaXTwitter, FaGithub, FaRegLightbulb } from 'react-icons/fa6';
 // import MdDarkMode from 'react-icons/md'  -- Add dark mode --
 
 const NavBar = () => {

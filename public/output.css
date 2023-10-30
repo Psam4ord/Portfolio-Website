@@ -502,6 +502,9 @@ video {
 .mt-4 {
   margin-top: 1rem;
 }
+.mt-20 {
+  margin-top: 5rem;
+}
 .flex {
   display: flex;
 }
@@ -754,6 +757,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(1 116 190 / var(--tw-text-opacity));
 }
+.hover\:text-\[\#78dcfa\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(120 220 250 / var(--tw-text-opacity));
+}
 @media (min-width: 320px) {
 
   .xsm\:mt-24 {
@@ -774,6 +781,10 @@ video {
 
   .xsm\:flex-col {
     flex-direction: column;
+  }
+
+  .xsm\:flex-wrap {
+    flex-wrap: wrap;
   }
 
   .xsm\:justify-center {

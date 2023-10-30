@@ -23,11 +23,13 @@ const AboutPage = () => {
       </div>
 
       <div className='flex bg-bgPrimary m-2 rounded-md p-2'>
-        <ul className='flex space-x-2 h-auto'>
+        <ul className='flex justify-center xsm:flex-wrap space-x-2 h-auto '>
           <li className='bg-[#fff] p-1'> <h3>Html</h3></li>
           <li className='bg-[#fff] p-1'> <h3>Css</h3></li>
           <li className='bg-[#fff] p-1'> <h3>Javascript</h3></li>
           <li className='bg-[#fff] p-1'> <h3>React</h3></li>
+          <li className='bg-[#fff] p-1'> <h3>Tailwindcss</h3></li>
+          <li className='bg-[#fff] p-1'> <h3>Figma</h3></li>
         </ul>
       </div>
       <div className=' flex justify-center'>
@@ -36,9 +38,10 @@ const AboutPage = () => {
           <a href='##' 
           target='_blank' rel='noreferrer'> </a>Download Resume</button>
 
-          {/* Portfolio work here*/}
+      </div>
 
-          {/* Testimony swipers here */}
+      <div className=''>
+
       </div>
       <Footer />
     </>
