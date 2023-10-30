@@ -10,10 +10,10 @@ const AboutPage = () => {
       <div className='bg-bgPrimary rounded-md p-2 m-2 xsm:mt-24'>
         <h1 className='uppercase text-center p-1 font-semibold 
         '> About</h1>
-
-        <p> I am a Software developer with the passion
+        <p> I am a Software developer, <strong> <i> a problem solving-enthusiast. </i></strong>I am passionate
           of developing efficient, performance base and complex Web applications.
           My favourite stack is <strong>Front-End.</strong>
+
         </p>
         <p>
           I use Front-end technology frameworks like <strong> Reactjs, Figma & Tailwindcss. </strong>
@@ -33,7 +33,12 @@ const AboutPage = () => {
       <div className=' flex justify-center'>
         <button className=' bg-btnPrimary hover:bg-btnHover hover:text-[#000000] text-[#fff]
          p-2 rounded m-2 font-mono '>
-          <a href='#' download= " "> </a>Download Resume</button>
+          <a href='##' 
+          target='_blank' rel='noreferrer'> </a>Download Resume</button>
+
+          {/* Portfolio work here*/}
+
+          {/* Testimony swipers here */}
       </div>
       <Footer />
     </>

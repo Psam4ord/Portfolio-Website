@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
-import { FaXTwitter, FaInstagram, FaGithub } from 'react-icons/fa6';
+import { FaXTwitter, FaInstagram, FaGithub, FaRegLightbulb } from 'react-icons/fa6';
+// import MdDarkMode from 'react-icons/md'  -- Add dark mode --
 
 const NavBar = () => {
   return (
@@ -18,9 +19,9 @@ const NavBar = () => {
               target="_blank" rel="noreferrer"> <FaXTwitter /> </a> </li>
             <li className='hover:text-[#fff]'><a href='https://wa.me/233547411756'
               target="_blank" rel="noreferrer"> <FaWhatsapp /> </a> </li>
-            <li className='hover:text-[#fff]'
+            {/* <li className='hover:text-[#fff]'
               target="_blank" rel="noreferrer"
-            ><a href='#'> <FaInstagram /> </a> </li>
+            ><a href='#'> <FaInstagram /> </a> </li> */}
           </ul>
         </span>
       </div>
