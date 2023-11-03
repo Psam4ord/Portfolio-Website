@@ -4,6 +4,12 @@ import Footer from '../Components/Layout/footer';
 
 
 const AboutPage = () => {
+
+ const handleButtonClick = ()=>{
+  window.open('https://docs.google.com/document/d/1uzjtTt8RkFNyq36AShMT16yGJzospGjbJgT0kAzpSrw/edit?usp=sharing', '_blank')
+ 
+ }
+
   return (
     <>
       <NavBar />
@@ -33,10 +39,12 @@ const AboutPage = () => {
         </ul>
       </div>
       <div className=' flex justify-center'>
-        <button className=' bg-btnPrimary hover:bg-btnHover hover:text-[#000000] text-[#fff]
-         p-2 rounded m-2 font-mono '>
-          <a href='##' 
-          target='_blank' rel='noreferrer'> </a>Download Resume</button>
+        <button  className=' bg-btnPrimary hover:bg-btnHover hover:text-[#000000] text-[#fff]
+         p-2 rounded m-2 font-mono'
+         type='button'
+         onClick={handleButtonClick}
+         >
+          View Resume</button>
 
       </div>
 

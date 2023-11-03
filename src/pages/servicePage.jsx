@@ -14,7 +14,6 @@ const ServicePage = () => {
         <li className='hover:text-[#78dcfa]'><a href='https://frontendmentor-landingpage.netlify.app'
           target="_blank" rel="noreferrer"> Mentorship Program </a> </li>
 
-
         {/* Testimony swipers here */}
       </div>
       <Footer />
