@@ -7,7 +7,6 @@ const AboutPage = () => {
 
  const handleButtonClick = ()=>{
   window.open('https://docs.google.com/document/d/1uzjtTt8RkFNyq36AShMT16yGJzospGjbJgT0kAzpSrw/edit?usp=sharing', '_blank')
- 
  }
 
   return (
