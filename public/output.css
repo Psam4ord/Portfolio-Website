@@ -478,8 +478,17 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.relative {
-  position: relative;
+.fixed {
+  position: fixed;
+}
+.bottom-0 {
+  bottom: 0px;
+}
+.top-0 {
+  top: 0px;
+}
+.z-40 {
+  z-index: 40;
 }
 .m-2 {
   margin: 0.5rem;
@@ -493,8 +502,8 @@ video {
 .mt-4 {
   margin-top: 1rem;
 }
-.mb-5 {
-  margin-bottom: 1.25rem;
+.mt-20 {
+  margin-top: 5rem;
 }
 .flex {
   display: flex;
@@ -553,6 +562,19 @@ video {
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
+.space-x-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-x-8 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2rem * var(--tw-space-x-reverse));
+  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.rounded {
+  border-radius: 0.25rem;
+}
 .rounded-full {
   border-radius: 9999px;
 }
@@ -590,13 +612,13 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
-.bg-btnHover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(137 207 243 / var(--tw-bg-opacity));
-}
 .bg-btnPrimary {
   --tw-bg-opacity: 1;
   background-color: rgb(29 161 242 / var(--tw-bg-opacity));
+}
+.bg-\[\#000\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 .p-1 {
   padding: 0.25rem;
@@ -604,17 +626,26 @@ video {
 .p-2 {
   padding: 0.5rem;
 }
+.p-3 {
+  padding: 0.75rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
 .pb-4 {
   padding-bottom: 1rem;
-}
-.pt-4 {
-  padding-top: 1rem;
 }
 .pt-10 {
   padding-top: 2.5rem;
 }
+.pt-4 {
+  padding-top: 1rem;
+}
 .text-center {
   text-align: center;
+}
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -631,6 +662,10 @@ video {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
 .font-medium {
   font-weight: 500;
 }
@@ -639,6 +674,9 @@ video {
 }
 .font-semibold {
   font-weight: 600;
+}
+.font-black {
+  font-weight: 900;
 }
 .uppercase {
   text-transform: uppercase;
@@ -678,6 +716,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 254 254 / var(--tw-text-opacity));
 }
+.text-\[\#000\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
@@ -686,6 +728,10 @@ video {
 .hover\:bg-btnHover:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(137 207 243 / var(--tw-bg-opacity));
+}
+.hover\:text-\[\#000000\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .hover\:text-\[\#080808\]:hover {
   --tw-text-opacity: 1;
@@ -699,7 +745,27 @@ video {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.hover\:text-\[\#000\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+.hover\:text-\[\#c4c4c4\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(196 196 196 / var(--tw-text-opacity));
+}
+.hover\:text-\[\#0174BE\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(1 116 190 / var(--tw-text-opacity));
+}
+.hover\:text-\[\#78dcfa\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(120 220 250 / var(--tw-text-opacity));
+}
 @media (min-width: 320px) {
+
+  .xsm\:mt-24 {
+    margin-top: 6rem;
+  }
 
   .xsm\:flex {
     display: flex;
@@ -715,6 +781,14 @@ video {
 
   .xsm\:flex-col {
     flex-direction: column;
+  }
+
+  .xsm\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .xsm\:justify-center {
+    justify-content: center;
   }
 
   .xsm\:space-x-2 > :not([hidden]) ~ :not([hidden]) {

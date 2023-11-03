@@ -3,7 +3,7 @@ import UserProfile from './profile/profile'
 
 const CardDesign = () => {
     return (
-        <div className='bg-bgPrimary m-2 rounded-md'>
+        <div className='bg-bgPrimary m-2 rounded-md xsm:mt-24'>
             <UserProfile />
         </div>
     )

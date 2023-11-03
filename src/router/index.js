@@ -1,29 +1,29 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import AboutPage from "../pages/aboutPage";
+import Homepage from "../pages/homePage";
+import Contact from "../pages/contactPage";
+import ServicePage from "../pages/servicePage";
 
 export const AppRouter = createBrowserRouter([
     {
         path: "/",
-        element: <p>Welcome Home</p>,
+        element: <Homepage />,
     },
+
     {
         path: "/about",
         element: <AboutPage />,
     },
-    // {
-    //     path: "/auth",
-    //     children: [
-    //         {
-    //             path: "login",
-    //             element: <Login />,
-    //             // loader: teamLoader,
-    //         },
-    //         {
-    //             path: "sign-up",
-    //             element: <SignUp />,
-    //             // loader: teamLoader,
-    //         },
-    //     ],
-    // }
+
+    {
+        path: "/service",
+        element: <ServicePage/>,
+    },
+    
+    {
+        path: "/contact",
+        element: <Contact />,
+    },
+
 ]);
