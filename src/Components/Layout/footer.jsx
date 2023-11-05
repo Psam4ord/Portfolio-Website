@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 import AddressCard from '../contact/Address'
 import { FaLinkedinIn, FaWhatsapp, } from 'react-icons/fa';
 import { FaXTwitter, FaInstagram, FaGithub } from 'react-icons/fa6';
-import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
+import { AiOutlinePhone, AiOutlineMail, AiOutlineHome} from 'react-icons/ai';
+import { MdMiscellaneousServices , MdContactPhone} from 'react-icons/md';
+import { BsPersonLinesFill} from 'react-icons/bs';
 //import location icon
 
 
@@ -15,9 +17,9 @@ const Footer = () => {
 
 <div className="xsm:w-full xsm:flex-col flex flex-wrap h-3/4 bg-[#0f172a] text-white pt-4">
 
-    <div className="flex text-[#aaa4a4] text-lg">
+    <div className="flex md:pl-4 text-[#aaa4a4] text-lg">
         <span className=" p-2 pt-10 pb-2">
-            <h3 className="text-2xl ">Contact Address</h3>
+            <h3 className="text-2xl font-semibold pb-2 ">Contact Address</h3>
             <ul>
                 <li className="flex items-center space-x-2 ">
                     <AddressCard />
@@ -38,14 +40,14 @@ const Footer = () => {
 
     {/* Further information */}
     <hr className=" xsm:flex  h-2 text-[#2f335e] mt-4" />
-    <div className="flex text-[#a4aaaa] text-lg">
-        <span className="p-2">
-            <h3 className="text-2xl">Futher Info</h3>
+    <div className="flex items-center md:pl-4 text-[#a4aaaa] text-lg">
+        <span className="md:pl-4 p-2">
+            <h3 className="text-2xl flex font-semibold pb-2">Futher Info</h3>
             <ul>
-                <li className='hover:text-[#ccc]'> <Link to='/'>Home </Link></li>
-                <li className='hover:text-[#ccc]'> <Link to='/about'>About </Link></li>
-                <li className='hover:text-[#ccc]'> <Link to='/service'>Service </Link></li>
-                <li className='hover:text-[#ccc]'> <Link to='/contact'>Contact </Link></li>
+                <li className='hover:text-[#ccc] flex items-center space-x-2'> <AiOutlineHome /> <Link to='/'>Home </Link></li>
+                <li className='hover:text-[#ccc] flex items-center space-x-2'> < BsPersonLinesFill /> <Link to='/about'>About </Link></li>
+                <li className='hover:text-[#ccc] flex items-center space-x-2 '> <MdMiscellaneousServices /> <Link to='/service'>Service </Link></li>
+                <li className='hover:text-[#ccc] flex items-center space-x-2'><MdContactPhone />  <Link to='/contact'>Contact </Link></li>
             </ul>
 
         </span>
@@ -74,9 +76,9 @@ const Footer = () => {
         </span>
     </div>
 
-    <span className=" xsm:justify-center bg-[#0e0d0daf] flex flex-row w-full p-2 pb-4 text-[#aaa4a4] text-sm">
-        <p className="flex flex-nowrap " translate="no">copyright &copy; 2023 | KerryInc&reg;</p>
-        <p className="flex flex-nowrap "> All Rights Reserved</p>
+    <span className=" xsm:justify-center bg-[#0e0d0daf] flex w-full p-2 pb-4 text-[#aaa4a4] text-sm">
+        <p className="flex flex-row " translate="no">copyright &copy; 2023  | KerryInc&reg;</p>
+        <p className="flex flex-nowrap "> | All Rights Reserved</p>
     </span>
 </div>
 

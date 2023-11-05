@@ -24,6 +24,10 @@ const ServicePage = () => {
           <li className='hover:text-[#78dcfa]'><a href='https://kerry-gallery.netlify.app/'
             target="_blank" rel="noreferrer"> Gallery clone </a> </li>
         </div>
+        <div>
+          <li className='hover:text-[#78dcfa]'><a href='https://portfoliosite-s87n.onrender.com'
+            target="_blank" rel="noreferrer"> Portfolio website </a> </li>
+        </div>
 
         {/* Testimony swipers here */}
       </div>

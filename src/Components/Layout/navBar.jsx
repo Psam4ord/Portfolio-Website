@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <div className=' fixed top-0 z-40 w-full'>
       <div className=" flex justify-end text-[#ccc] w-full 
-      h-1/4 bg-bgSecondary space-x-2 p-2 ">
+      h-1/4 bg-bgSecondary space-x-4 p-2 pr-4 ">
         <span>
           <ul className='flex space-x-4'>
             <li className='hover:text-[#fff]'><a href='http://www.linkedin.com/in/hayford-sammor-duah-7a8074186'
