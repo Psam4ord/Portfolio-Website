@@ -25,7 +25,7 @@ module.exports = {
       //medium  phones
       // => @media (min-width: 425px) { ... }
 
-      'tablet': '640px',
+      'tablet': '768px',
       // => @media (min-width: 640px) { ... }
 
       'laptop': '1024px',

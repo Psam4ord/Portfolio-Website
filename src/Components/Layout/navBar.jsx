@@ -6,11 +6,11 @@ import { FaXTwitter, FaGithub, FaRegLightbulb } from 'react-icons/fa6';
 
 const NavBar = () => {
   return (
-    <div className=' fixed top-0 z-40 w-full'>
+    <div className=' fixed top-0 z-40 w-full tablet:text-xl '>
       <div className=" flex justify-end text-[#ccc] w-full 
-      h-1/4 bg-bgSecondary space-x-2 p-2 ">
+      h-1/4 bg-bgSecondary space-x-2 p-2 laptop:h-[60px] laptop:pt-5">
         <span>
-          <ul className='flex space-x-4'>
+          <ul className='flex space-x-4 tablet:text-xl laptop:space-x-5'>
             <li className='hover:text-[#fff]'><a href='http://www.linkedin.com/in/hayford-sammor-duah-7a8074186'
               target="_blank" rel="noreferrer"> <FaLinkedinIn /> </a> </li>
                <li className=' hover:text-[#fff]'><a href="http://github.com/Psam4ord"
