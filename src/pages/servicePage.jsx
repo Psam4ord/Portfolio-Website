@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../Components/Layout/navBar';
 import Footer from '../Components/Layout/footer';
-
+import Slider from '../Components/Slides/Swipper';
 
 
 const ServicePage = () => {
@@ -36,6 +36,7 @@ const ServicePage = () => {
           <ul className='flex justify-center xsm:flex-wrap space-x-2 h-auto'>
           <p>incoming...</p>
           </ul>
+          <Slider />
         </div>
       </div>
       <Footer />
