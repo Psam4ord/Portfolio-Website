@@ -4,7 +4,7 @@ import profileImage from '../../assets/profile1.jpg'
 
 const UserProfile = (name, role) => {
   return (
-    <div className='flex xsm:flex-col h-auto items-center shadow-sm'>
+    <div className='flex xsm:flex-col h-auto items-center shadow-sm laptop:p-5'>
       <div className='flex p-2' >
         <img src={profileImage} alt='Profile'
           width={200}
