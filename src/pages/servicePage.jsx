@@ -29,6 +29,10 @@ const ServicePage = () => {
               target="_blank" rel="noreferrer"> Gallery clone </a> </li>
           </div>
         </div>
+        <div>
+          <li className='hover:text-[#78dcfa]'><a href='https://portfoliosite-s87n.onrender.com'
+            target="_blank" rel="noreferrer"> Portfolio website </a> </li>
+        </div>
 
         {/* Testimony swipers here */}
         <div className=' bg-bgPrimary rounded-md p-3 m-2'>
