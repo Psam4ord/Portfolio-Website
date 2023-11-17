@@ -12,7 +12,7 @@ const AboutPage = () => {
   return (
     <>
       <NavBar />
-      <div className='tablet:m-5'>
+      <div className='tablet:m-5 '>
         <div className='bg-bgPrimary rounded-md p-2 m-2 xsm:mt-24 pl-4 pr-4 tablet:text-xl '>
           <h1 className='uppercase text-center p-1 font-bold 
         '> About</h1>
@@ -72,7 +72,7 @@ const AboutPage = () => {
         </div>
 
 
-        <div className=' flex justify-center'>
+        <div className=' flex justify-center pb-5'>
           <button className=' bg-btnPrimary hover:bg-btnHover hover:text-[#000000] text-[#fff]
          p-2 rounded m-2 font-mono tablet:text-xl '
             type='button'

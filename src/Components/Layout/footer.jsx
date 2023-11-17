@@ -13,8 +13,7 @@ import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
 
 const Footer = () => {
     return (
-        <div className="w-full mt-10 bottom-0 static">
-
+        <footer  id="footer" className=" w-full mt-10 bottom-0">
             <div className="xsm:w-full xsm:flex-col flex flex-wrap h-3/4 bg-[#0f172a] text-white pt-4">
                 <div className="tablet:flex tablet:space-x-10 tablet:m-4  ">
 
@@ -87,7 +86,7 @@ const Footer = () => {
             </div>
 
 
-        </div>
+        </footer>
     )
 
 }
